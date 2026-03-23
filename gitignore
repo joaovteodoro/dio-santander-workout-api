@@ -1,0 +1,74 @@
+# ======================
+# Ambiente virtual Python
+# ======================
+venv/
+.venv/
+env/
+.env/
+ 
+# ======================
+# Variáveis de ambiente
+# ======================
+.env
+.env.*
+!.env.example
+ 
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+ 
+# ======================
+# Alembic
+# ======================
+# Não ignorar as migrations em si, apenas artefatos de build
+alembic/__pycache__/
+alembic/versions/__pycache__/
+ 
+# ======================
+# IDEs e editores
+# ======================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ 
+# ======================
+# Testes
+# ======================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+ 
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+ 
+# ======================
+# Docker
+# ======================
+# (docker-compose.yml deve ser versionado)
+docker-compose.override.yml
